@@ -1,0 +1,94 @@
+h1{
+    color:rgb(217, 90, 111);
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+h2{
+    color:pink;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+h3{
+    color:rgb(217, 90, 111);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+p{
+    color:gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+body{
+    background-color: #8193cb
+}
+
+.container{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.img-circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card-white{
+    background-color:white ;
+    padding:40px;
+    border-radius:8px;
+    margin:20px auto;
+    text-align: center;
+}
+
+.list{
+    list-style: none;
+    padding-left: 0;
+    font-size: 40px;
+    color: #8193cb;
+}
+
+.btn-pink{
+    background-color:rgb(217, 90, 111);
+    border:none;
+    border-radius:10px;
+    color: white;
+    font-size:16px;
+    font-family:'Roboto', sans-serif;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.btn-pink:hover{
+    color: black;
+}
+
+.purple-link{
+    color: #8193cb;
+}
+
+.purple-link:hover{
+    color: black;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
